@@ -6,7 +6,6 @@ import "forge-std/Test.sol";
 
 import "../src/PiggyBank.sol";
 
-
 contract PiggyBankTest is Test {
     PiggyBank bank;
 
@@ -17,11 +16,11 @@ contract PiggyBankTest is Test {
         bank = new PiggyBank();
         vm.stopPrank();
     }
-    
-    function _send(uint amount) private {
-        (bool ok, ) = address(bank).call{value: amount}("");
+
+    function _send(uint256 amount) private {
+        (bool ok,) = address(bank).call{value: amount}("");
         require(ok, "send ETH failed");
-         console.log("contract owner", bank.owner);
+        console.log("contract owner", bank.owner);
     }
 
     function testWithdrawl() public {
@@ -30,6 +29,6 @@ contract PiggyBankTest is Test {
         _send(10);
 
         hoax(address(1), 456);
-         _send(456);
+        _send(456);
     }
 }
