@@ -1,5 +1,5 @@
 
-# Compilation of solidity challenges solved with Foundry
+# Compilation of solidity challenges solved using Foundry
  
 Welcome to [ialmanzaj](https://twitter.com/ialmanzaj)'s solutions to the challenges using solidity and foundry.
 
