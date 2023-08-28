@@ -1,10 +1,7 @@
 
-# Smart contract engineer solutions
+# Compilation of solidity challenges solved with Foundry
  
 Welcome to [ialmanzaj](https://twitter.com/ialmanzaj)'s solutions to the challenges using solidity and foundry.
-
-
-Solutions to [Smart contract engineer challenges](https://smartcontract.engineer) ⛳️
 
 
 ## Contents
@@ -20,3 +17,10 @@ Solutions to [Smart contract engineer challenges](https://smartcontract.engineer
 
 
 ## 02 - King of Eth
+
+
+
+
+## Credits
+
+Some challenges inspired by [smart-contract-engineer](https://www.smartcontract.engineer/challenges).
