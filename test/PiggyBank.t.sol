@@ -20,7 +20,6 @@ contract PiggyBankTest is Test {
     function _send(uint256 amount) private {
         (bool ok,) = address(bank).call{value: amount}("");
         require(ok, "send ETH failed");
-        console.log("contract owner", bank.owner);
     }
 
     function testWithdrawl() public {
