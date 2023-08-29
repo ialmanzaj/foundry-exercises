@@ -2,16 +2,13 @@
 pragma solidity ^0.8.19;
 
 contract MulExample {
+    constructor() {}
 
-    constructor() {
-
-    }
-
-    function exponential(uint x) public pure returns (uint) {
+    function exponential(uint256 x) public pure returns (uint256) {
         return x ** 2;
     }
 
-    function multiply(uint x) public pure returns (uint) {
-        return  x * x;
+    function multiply(uint256 x) public pure returns (uint256) {
+        return x * x;
     }
 }
