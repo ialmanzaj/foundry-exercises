@@ -1,0 +1,5 @@
+CounterTest:testFuzz_SetNumber(uint256) (runs: 256, μ: 27298, ~: 28387)
+CounterTest:test_Increment() (gas: 28357)
+MulExampleTest:testExp() (gas: 5823)
+MulExampleTest:testMul() (gas: 5633)
+PiggyBankTest:testWithdrawl() (gas: 25092)
