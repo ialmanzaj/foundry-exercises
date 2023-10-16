@@ -5,7 +5,7 @@ contract KingOfEth {
     address payable public king;
 
     function play() external payable {
-        // previous balance = current balance - ETH sent
+        // previous balance = current_balance - ETH sent
         uint256 bal = address(this).balance - msg.value;
         require(msg.value > bal, "need to pay more to become the king");
 
